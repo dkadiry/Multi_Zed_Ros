@@ -31,14 +31,15 @@ cd ros-zed-interface
 
 ### **2. Install Dependencies**
 Ensure you have **Clearpath Husky and the NVIDIA Jetson TX2** configured and set up:
-[Installing a Jetson TX2 on Husky](https://www.clearpathrobotics.com/assets/guides/melodic/husky/jetson_tx2.html)
+[Installing a Jetson TX2 on Husky Official Guide](https://www.clearpathrobotics.com/assets/guides/melodic/husky/jetson_tx2.html)
 [Interfacing with Husky Official Guide](https://www.clearpathrobotics.com/assets/guides/melodic/husky/InterfacingWithHusky.html)
+
 ```bash
 sudo apt-get install ros-melodic-husky-desktop
 ```
-Additionally, install the **Stereolabs ZED SDK** by following the [official guide](https://www.stereolabs.com/developers/release/).
+Additionally, install the **Stereolabs ZED SDK and Python API** by following the [official guide](https://github.com/stereolabs/zed-python-api).
 
-### **3. Add Package to Your Catkin Workspace**
+### **3. Add Package to a Catkin Workspace**
 Navigate to your Catkin workspace and clone the package inside the `src/` directory:
 ```bash
 cd ~/catkin_ws/src
@@ -79,8 +80,3 @@ This package supports manual triggering using the **Logitech F710 wireless contr
 
 ---
 
-## 📖 Acknowledgments
-This work is part of my MSc thesis at **Western University**, titled:
-**"Investigating the Influence of Scale Cues and Pose Integration on AI-Based Monocular Depth Estimation for Resource-Constrained Mobile Robots."**
-
-For a full discussion of the results and methodology, refer to my MSc thesis (link to be added upon publication).
