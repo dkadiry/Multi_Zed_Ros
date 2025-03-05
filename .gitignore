@@ -33,3 +33,6 @@ CATKIN_IGNORE
 # Zed Cam Images
 images/
 data/
+
+src\scripts\old_zed_control.py
+src\scripts\zed_control.py
