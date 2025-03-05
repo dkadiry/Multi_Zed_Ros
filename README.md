@@ -1,7 +1,7 @@
 # ZED Dual Camera ROS Package
 
 ## 📌 Project Overview
-This ROS package, **zed_ros**, is designed to interface with **two Stereolabs ZED cameras** and a **Clearpath Husky Rover** to collect:
+This ROS package, **multi_zed_ros**, is designed to interface with **two Stereolabs ZED cameras** and a **Clearpath Husky Rover** to collect:
 - **Pose data** (absolute and relative motion tracking)
 - **Image data** (left-camera RGB images)
 - **Depth maps** (captured in `.npy` format)
